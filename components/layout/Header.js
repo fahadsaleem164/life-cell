@@ -54,17 +54,17 @@ class Header extends React.Component {
                                     <ul class="nav navbar-nanavbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
                                         <li class="nav-item active"><Link href='/shop'><a class="nav-link">Shop
                                         </a></Link></li>
-                                        <li class="nav-item"> <a class="nav-link" href="whats-new.html">What’s New</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="science.html">Science</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a>
+                                        <li class="nav-item"><Link href='/whats_new'><a class="nav-link">What’s New</a></Link></li>
+                                        <li class="nav-item"><Link href='/science'><a class="nav-link">Science</a></Link></li>
+                                            <li class="nav-item"><Link href='/blog'><a class="nav-link">Blog</a></Link>
                                             </li>
                                         
                                             <li class="dropdown">
                                                 <a href="#" class="nav-link dropdown" data-toggle="dropdown">company</a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="our-cmpny.html">Our Company</a></li>
+                                                    <li><Link href='our_company'><a>Our Company</a></Link></li>
                                                     <div class="dropdown-divider"></div>
-                                                    <li><a href="information.html">Information</a></li>
+                                                    <li><Link href='information'><a>Information</a></Link></li>
                                                 </ul>
                                             </li>
                                         
