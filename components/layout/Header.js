@@ -1,4 +1,5 @@
 import React , {Component} from "react";
+import Link from 'next/link'
 
 class Header extends React.Component {
     
@@ -43,14 +44,16 @@ class Header extends React.Component {
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                                     <i class="fa fa-bars"></i>
                                 </button>
+                                <Link href='/'>
                                     <a class="navbar-brand" href="index.html"><img src="images/lifecelllogo@2x.png" class="logo" alt=""/></a>
+                                </Link>
                                 </div>
                                
         
                                 <div class="collapse navbar-collapse" id="navbar-menu">
                                     <ul class="nav navbar-nanavbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-                                        <li class="nav-item active"><a class="nav-link" href="shop.html">Shop
-                                        </a></li>
+                                        <li class="nav-item active"><Link href='/shop'><a class="nav-link">Shop
+                                        </a></Link></li>
                                         <li class="nav-item"> <a class="nav-link" href="whats-new.html">What’s New</a></li>
                                         <li class="nav-item"><a class="nav-link" href="science.html">Science</a></li>
                                             <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a>
