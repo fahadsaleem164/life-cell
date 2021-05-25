@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Footer from '../components/layout/Footer'
+import Header from '../components/layout/Header'
 export default function Index() {
   return (
     <div class="main">
